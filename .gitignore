@@ -1,0 +1,13 @@
+# Ignore node_modules in backend and we folders
+/backend/node_modules/
+/web/node_modules/
+
+# Ignore model .h5 files in backend and we folders
+/backend/**/*.h5
+/web/**/*.h5
+
+# Ignore logs and environment files
+/backend/*.log
+/web/*.log
+/backend/.env
+/web/.env

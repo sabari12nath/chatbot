@@ -1,0 +1,517 @@
+{
+  "intents": [
+    {
+      "tag": "account_status",
+      "patterns": [
+        "Is my account active?",
+        "My account is frozen"
+      ],
+      "response": "Check your account status in the ASTRA app dashboard or call customer care."
+    },
+    {
+      "tag": "atm_limits",
+      "patterns": [
+        "ATM withdrawal limit"
+      ],
+      "response": "The daily withdrawal limit is \u20b925,000 for standard cards and \u20b950,000 for premium cards."
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "Locate nearest ATM"
+      ],
+      "response": "Use the ASTRA app's 'Find ATM' feature or visit our website to locate ATMs."
+    },
+    {
+      "tag": "block_debit_card",
+      "patterns": [
+        "Block my debit card",
+        "Lost my card yesterday",
+        "I lost my debit card",
+        "How to report a stolen debit card?"
+      ],
+      "response": "Please block your card immediately via the ASTRA app or call 1800-123-4567.<br><ul><li><b>Offline:</b> Report loss at branch with your ID.</li><li><b>Online:</b> Use ASTRA app: Cards > Manage > Block Card.</li></ul><br><b>How to do it:</b> Log in to app > Cards > Block or call 1800-123-4567.<br><b>Requirements:</b> Your account or card number, identity proof if offline."
+    },
+    {
+      "tag": "check_balance",
+      "patterns": [
+        "Balance enquiry please",
+        "How to check my account balance?",
+        "What's my account balance?",
+        "Check balance on my ASTRA account"
+      ],
+      "response": "Log in to the ASTRA app or send 'BAL' to 56789 from your registered mobile."
+    },
+    {
+      "tag": "cheque_book",
+      "patterns": [
+        "Order cheque book",
+        "How long to receive cheque book?"
+      ],
+      "response": "You can order a cheque book via net banking, the mobile app, or by visiting the branch."
+    },
+    {
+      "tag": "close_account",
+      "patterns": [
+        "Can I close my account online?",
+        "I want to close my bank account",
+        "Can you help me block my account?",
+        "Tell me how to freeze my bank account"
+      ],
+      "response": "Please visit your ASTRA branch with ID proof to close your account. Clear all dues before proceeding."
+    },
+    {
+      "tag": "credit_card",
+      "patterns": [
+        "Eligibility for credit card?"
+      ],
+      "response": "You need a steady income, good credit score, and valid KYC documents to apply.<br><ul><li><b>Offline:</b> Apply at your branch with income proof and KYC.</li><li><b>Online:</b> Select a card on ASTRA website or app and apply.</li></ul><br><b>How to do it:</b> Apply on ASTRA app or branch with KYC and income proof.<br><b>Requirements:</b> PAN, Aadhaar, recent salary slip or bank statement."
+    },
+    {
+      "tag": "credit_card_fees",
+      "patterns": [
+        "Credit card late fee?"
+      ],
+      "response": "Late fee varies by card type but generally starts at \u20b9200."
+    },
+    {
+      "tag": "fixed_deposit",
+      "patterns": [
+        "How to make a fixed deposit?",
+        "What is the minimum amount for FD?",
+        "Interest rate on FD?"
+      ],
+      "response": "You can open a fixed deposit through the ASTRA mobile app or by visiting your branch."
+    },
+    {
+      "tag": "home_loan",
+      "patterns": [
+        "How to apply for a home loan?",
+        "What is the interest rate for home loan?",
+        "Do you offer housing loans?"
+      ],
+      "response": "Visit our branch with your income and property documents or apply online through our website.<br><ul><li><b>Offline:</b> Bring your property docs and KYC to the branch.</li><li><b>Online:</b> Apply via app/website with scanned documents and verification.</li></ul><br><b>How to do it:</b> Apply via app/website or visit branch with property documents.<br><b>Requirements:</b> Income proof, KYC, property documents, employment proof."
+    },
+    {
+      "tag": "joint_account",
+      "patterns": [
+        "Process to convert to joint account",
+        "Can I open a joint account?"
+      ],
+      "response": "Yes, ASTRA allows joint accounts. Both holders must complete KYC and sign the form."
+    },
+    {
+      "tag": "kyc_update",
+      "patterns": [
+        "Update KYC details",
+        "My KYC is pending"
+      ],
+      "response": "You can update KYC by visiting a branch with your new ID/address proof or through the app.<br><ul><li><b>Offline:</b> Carry updated address/ID proof to your branch for verification.</li><li><b>Online:</b> Upload updated KYC documents via ASTRA app.</li></ul><br><b>How to do it:</b> Upload documents via app or visit your branch.<br><b>Requirements:</b> Updated ID and address proof (e.g., Aadhaar, utility bill)."
+    },
+    {
+      "tag": "loan_repayment",
+      "patterns": [
+        "Missed loan EMI",
+        "How to repay loan online?"
+      ],
+      "response": "Repay your loan through the ASTRA app or set up auto-debit using your bank account."
+    },
+    {
+      "tag": "mobile_banking",
+      "patterns": [
+        "How to register for mobile banking?",
+        "Download ASTRA mobile app"
+      ],
+      "response": "The ASTRA mobile app is available on Google Play Store and Apple App Store."
+    },
+    {
+      "tag": "nri_account",
+      "patterns": [
+        "Documents needed for NRI savings",
+        "How to open an NRI account?"
+      ],
+      "response": "To open an NRI account, submit passport, visa, and overseas address proof online or at a branch."
+    },
+    {
+      "tag": "open_account",
+      "patterns": [
+        "How can I create a new account?",
+        "I want to open an account",
+        "What's required to open a bank account?",
+        "How do I start a new savings account?",
+        "Open an account",
+        "Open a new account",
+        "How to open an account?",
+        "Account opening process",
+        "I need to open an account",
+        "Guide me to open an account",
+        "Tell me how to open an account",
+        "How do I open an account?",
+        "Help me open an account"
+      ],
+      "response": "To open an account, visit your nearest ASTRA branch or apply online through our app.<br><ul><li><b>Offline:</b> Visit your nearest ASTRA branch with ID and address proof, and a photo.</li><li><b>Online:</b> Use ASTRA app or website to apply digitally and complete video KYC.</li></ul><br><b>How to do it:</b> Apply online via the ASTRA app or visit a branch.<br><b>Requirements:</b> Valid ID proof (Aadhaar, PAN), address proof, and a passport-size photo."
+    },
+    {
+      "tag": "personal_loan",
+      "patterns": [
+        "Loan for emergency",
+        "I need a personal loan",
+        "Interest rate for personal loan?"
+      ],
+      "response": "Apply for a personal loan via our app or at the branch with your ID and income proof.<br><ul><li><b>Offline:</b> Visit branch with income and ID proof to apply.</li><li><b>Online:</b> Go to ASTRA app > Loans > Apply for Personal Loan.</li></ul><br><b>How to do it:</b> Use ASTRA app or visit branch and submit application with required documents.<br><b>Requirements:</b> PAN, Aadhaar, income proof like salary slips or bank statements."
+    },
+    {
+      "tag": "recurring_deposit",
+      "patterns": [
+        "Start a recurring deposit account",
+        "What are RD interest rates?"
+      ],
+      "response": "Open a recurring deposit online through the app or at any ASTRA branch."
+    },
+    {
+      "tag": "reset_password",
+      "patterns": [
+        "I forgot my password",
+        "Password recovery steps",
+        "Help me recover login password",
+        "Reset my net banking password"
+      ],
+      "response": "Click on 'Forgot Password' on the login page and follow the steps to reset it.<br><b>How to do it:</b> Click 'Forgot Password' on login page.<br><b>Requirements:</b> Registered mobile/email access to receive OTP."
+    },
+    {
+      "tag": "update_mobile",
+      "patterns": [
+        "Update my mobile number",
+        "Change phone number linked to account"
+      ],
+      "response": "You can update your mobile number by visiting the branch or updating it in net banking under 'Profile'.<br><ul><li><b>Offline:</b> Submit a request at your branch with valid ID.</li><li><b>Online:</b> Log in to ASTRA Net Banking or App > Settings > Update Mobile.</li></ul><br><b>How to do it:</b> Log in > Settings > Update Mobile or go to branch.<br><b>Requirements:</b> Valid ID and the new mobile number."
+    },
+    {
+      "tag": "debit_card_pin_reset",
+      "patterns": [
+        "How to reset my debit card PIN?",
+        "Forgot my ATM PIN",
+        "Reset debit card PIN"
+      ],
+      "response": "You can reset your debit card PIN at any ASTRA ATM or through the ASTRA mobile app.<br><ul><li><b>ATM:</b> Insert card > PIN Services > Reset PIN.</li><li><b>App:</b> Log in > Cards > Manage > Reset PIN.</li></ul><b>Requirements:</b> Registered mobile for OTP verification."
+    },
+    {
+      "tag": "branch_timings",
+      "patterns": [
+        "What are the branch timings?",
+        "When does the bank open?",
+        "Bank working hours"
+      ],
+      "response": "ASTRA branches are open from 10:00 AM to 4:00 PM, Monday to Friday, and 10:00 AM to 2:00 PM on Saturdays (except 2nd and 4th Saturdays)."
+    },
+    {
+      "tag": "ifsc_code",
+      "patterns": [
+        "What is the IFSC code?",
+        "How to find my branch IFSC code?",
+        "IFSC code for my branch"
+      ],
+      "response": "You can find your branch IFSC code on your cheque book, passbook, or by searching on the ASTRA website."
+    },
+    {
+      "tag": "net_banking_registration",
+      "patterns": [
+        "How to register for net banking?",
+        "Net banking activation process"
+      ],
+      "response": "Register for ASTRA Net Banking online using your account number and registered mobile, or visit your branch for assistance."
+    },
+    {
+      "tag": "minimum_balance",
+      "patterns": [
+        "What is the minimum balance for savings account?",
+        "Minimum balance requirement"
+      ],
+      "response": "The minimum balance for a regular ASTRA savings account is ₹5,000. Please check your account type for specific requirements."
+    },
+    {
+      "tag": "international_transactions",
+      "patterns": [
+        "Can I use my card internationally?",
+        "Enable international transactions"
+      ],
+      "response": "Yes, you can enable international transactions via the ASTRA app or by contacting customer care. Charges may apply."
+    },
+    {
+      "tag": "customer_care",
+      "patterns": [
+        "Customer care number",
+        "How to contact support?",
+        "Bank helpline"
+      ],
+      "response": "You can reach ASTRA customer care at 1800-123-4567 or email support@astra.com."
+    },
+    {
+      "tag": "statement_request",
+      "patterns": [
+        "How to get my account statement?",
+        "Request bank statement",
+        "Download statement"
+      ],
+      "response": "You can download your account statement from the ASTRA app or net banking portal. Visit your branch for a physical copy."
+    },
+    {
+      "tag": "locker_facility",
+      "patterns": [
+        "Does ASTRA offer locker facility?",
+        "How to apply for a locker?"
+      ],
+      "response": "Yes, ASTRA offers locker facilities at select branches. Apply at your branch with KYC documents. Allotment is subject to availability."
+    },
+    {
+      "tag": "senior_citizen_account",
+      "patterns": [
+        "Senior citizen account benefits",
+        "Open senior citizen account"
+      ],
+      "response": "ASTRA offers special savings accounts for senior citizens with higher interest rates and priority service. Visit your branch with age proof."
+    },
+    {
+      "tag": "account_opening_status",
+      "patterns": [
+        "Status of my account opening",
+        "How long does it take to open an account?",
+        "Account opening process time"
+      ],
+      "response": "Account opening usually takes 1-2 working days after document verification. You can check status in the ASTRA app or branch."
+    },
+    {
+      "tag": "loan_eligibility",
+      "patterns": [
+        "Am I eligible for a loan?",
+        "Loan eligibility criteria",
+        "Who can apply for a loan?"
+      ],
+      "response": "Eligibility depends on your income, credit score, and documentation. Use the loan eligibility calculator on our website or app."
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": [
+        "What are the current interest rates?",
+        "Interest rate for savings account",
+        "Interest rate for fixed deposit"
+      ],
+      "response": "Current interest rates are available on the ASTRA website or app. Savings accounts offer up to 3.5% p.a., FDs up to 6.5% p.a."
+    },
+    {
+      "tag": "emi_calculator",
+      "patterns": [
+        "How to calculate EMI?",
+        "EMI calculator",
+        "Loan EMI calculation"
+      ],
+      "response": "You can use the EMI calculator in the ASTRA app or website to estimate your monthly payments for loans."
+    },
+    {
+      "tag": "forex_services",
+      "patterns": [
+        "Does ASTRA provide forex services?",
+        "How to get foreign currency?",
+        "Forex card application"
+      ],
+      "response": "ASTRA offers forex cards and currency exchange at select branches. Apply via the app or visit a forex-enabled branch."
+    },
+    {
+      "tag": "mobile_number_change",
+      "patterns": [
+        "Change my registered mobile number",
+        "Update phone number in bank records"
+      ],
+      "response": "To change your registered mobile number, visit your branch with valid ID proof or update it via net banking."
+    },
+    {
+      "tag": "email_update",
+      "patterns": [
+        "Update my email address",
+        "Change email linked to my account"
+      ],
+      "response": "You can update your email address in the ASTRA app under Profile > Contact Details or by visiting your branch."
+    },
+    {
+      "tag": "atm_card_delivery",
+      "patterns": [
+        "When will I get my ATM card?",
+        "ATM card delivery time",
+        "How long does it take to receive debit card?"
+      ],
+      "response": "ATM/debit cards are usually delivered within 7 working days after account opening or card request."
+    },
+    {
+      "tag": "transaction_failed",
+      "patterns": [
+        "My transaction failed",
+        "Money debited but not credited",
+        "Failed online transaction"
+      ],
+      "response": "If your transaction failed but money was debited, it will be auto-reversed within 3-5 working days. Contact support if not."
+    },
+    {
+      "tag": "cheque_status",
+      "patterns": [
+        "Status of my cheque",
+        "Cheque clearance time",
+        "How to check cheque status?"
+      ],
+      "response": "Cheque clearance usually takes 2-3 working days. You can check status in the ASTRA app or by contacting your branch."
+    },
+    {
+      "tag": "account_types",
+      "patterns": [
+        "Types of accounts offered",
+        "What accounts can I open?",
+        "Savings, current, salary account"
+      ],
+      "response": "ASTRA offers savings, current, salary, NRI, and senior citizen accounts. Visit our website or branch for details."
+    },
+    {
+      "tag": "card_upgrade",
+      "patterns": [
+        "Upgrade my debit card",
+        "How to get a premium card?",
+        "Card upgrade process"
+      ],
+      "response": "You can request a card upgrade via the ASTRA app or by visiting your branch. Eligibility depends on your account and usage."
+    },
+    {
+      "tag": "sms_alerts",
+      "patterns": [
+        "Activate SMS alerts",
+        "How to get transaction alerts?",
+        "Enable SMS notifications"
+      ],
+      "response": "Enable SMS alerts for your account in the ASTRA app under Notifications or by submitting a request at your branch."
+    },
+    {
+      "tag": "nominee_update",
+      "patterns": [
+        "Add nominee to my account",
+        "Update nominee details",
+        "Nominee registration process"
+      ],
+      "response": "You can add or update nominee details via the ASTRA app or by submitting a form at your branch with account details."
+    },
+    {
+      "tag": "account_statement_email",
+      "patterns": [
+        "Email me my account statement",
+        "Get statement on email",
+        "Monthly statement by email"
+      ],
+      "response": "You can subscribe to e-statements in the ASTRA app or net banking. Statements will be sent monthly to your registered email."
+    },
+    {
+      "tag": "upi_activation",
+      "patterns": [
+        "How to activate UPI?",
+        "Enable UPI for my account",
+        "UPI registration process",
+        "Activate UPI in ASTRA app"
+      ],
+      "response": "To activate UPI, log in to the ASTRA app, go to UPI section, set a UPI PIN, and link your account. You will need your debit card details for verification."
+    },
+    {
+      "tag": "balance_alerts",
+      "patterns": [
+        "How to get balance alerts?",
+        "Enable balance SMS alerts",
+        "Balance notification setup"
+      ],
+      "response": "You can enable balance alerts in the ASTRA app under Notifications or by submitting a request at your branch."
+    },
+    {
+      "tag": "atm_blocked",
+      "patterns": [
+        "My ATM card is blocked",
+        "ATM card blocked message",
+        "How to unblock ATM card?"
+      ],
+      "response": "If your ATM card is blocked, visit your nearest ASTRA branch or call customer care to unblock or reissue your card."
+    },
+    {
+      "tag": "fund_transfer",
+      "patterns": [
+        "How to transfer funds?",
+        "Transfer money to another account",
+        "Send money using ASTRA app"
+      ],
+      "response": "You can transfer funds using NEFT, RTGS, IMPS, or UPI through the ASTRA app or net banking. Go to Transfers > Select method > Enter details."
+    },
+    {
+      "tag": "loan_types",
+      "patterns": [
+        "Types of loans available",
+        "What loans does ASTRA offer?",
+        "Loan options"
+      ],
+      "response": "ASTRA offers home loans, personal loans, car loans, education loans, and business loans. Visit our website or branch for details."
+    },
+    {
+      "tag": "internet_banking_lock",
+      "patterns": [
+        "My net banking is locked",
+        "Unlock internet banking",
+        "Net banking access blocked"
+      ],
+      "response": "If your net banking is locked, use the 'Forgot Password' option or contact customer care to unlock your account."
+    },
+    {
+      "tag": "cheque_book_charges",
+      "patterns": [
+        "Cheque book charges",
+        "Is cheque book free?",
+        "Cost of new cheque book"
+      ],
+      "response": "The first cheque book is free for new accounts. Additional cheque books may incur charges as per ASTRA's schedule of charges."
+    },
+    {
+      "tag": "pan_update",
+      "patterns": [
+        "Update PAN in my account",
+        "How to link PAN card?",
+        "Change PAN details"
+      ],
+      "response": "You can update or link your PAN card in the ASTRA app under Profile > KYC or by submitting a form at your branch."
+    },
+    {
+      "tag": "mobile_app_features",
+      "patterns": [
+        "What can I do in ASTRA app?",
+        "Features of ASTRA mobile app",
+        "ASTRA app services"
+      ],
+      "response": "The ASTRA app allows you to check balance, transfer funds, pay bills, open deposits, manage cards, and more."
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up?",
+        "Hey there"
+      ],
+      "response": "Hello! 👋 How can I assist you with your banking needs today?"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "Catch you later",
+        "Talk to you soon"
+      ],
+      "response": "Thank you for chatting with Astra Bank. Have a great day! 👋"
+    }
+  ]
+}
